@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tecnologia en Medellin</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper brown darken-4">
+            <a href="#" class="brand-logo">Tecnologia</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="sass.html">Educacion</a>
+                </li>
+                <li>
+                    <a href="salud.html">Salud</a>
+                </li>
+                <li>
+                    <a href="tecnologia.html">Tecnologia</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h5>Filtrar zonas wifi por comuna</h5>
+        <br>
+        <select name="comunas" id="comunas">
+            <option value="1">Comuna 1 (Buenos Aires)</option>
+            <option value="3">Comuna 3 (Manrique)</option>
+            <option value="4">Comuna 4 (Aranjuez)</option>
+            <option value="5">Comuna 5 (Castilla)</option>
+            <option value="6">Comuna 6 (Doce Octubre)</option>
+            <option value="7">Comuna 7 (Robledo)</option>
+            <option value="8">Comuna 8 (Villa Hermosa)</option>
+            <option value="9">Comuna 9 (Buenos Aires)</option>
+            <option value="10">Comuna 10 (La Candelaria)</option>
+            <option value="11">Comuna 11 (Laureles)</option>
+            <option value="12">Comuna 12 (La America)</option>
+            <option value="13">Comuna 13 (San Javier)</option>
+            <option value="14">Comuna 14 (Poblado)</option>
+            <option value="15">Comuna 15 (Guayabal)</option>
+            <option value="16">Comuna 16 (Belen)</option>
+            <option value="60">Comuna 60 (Coregimiento de San Cristobal)</option>
+            <option value="70">Comuna 70</option>
+            <option value="80">Comuna 80 (San Antonio de Prado)</option>
+            <option value="90">Comuna 90 (Santa Elena)</option>
+        </select>
+        <br>
+        <div class="row">
+            <section id="wifi" class=""></section>
+        </div>
+    </div>
+    <script src="js/dom.js"></script>
+    <script src="js/ajax_petition.js"></script>
+    <script src="js/datos.js"></script>
+</body>
+
+</html>

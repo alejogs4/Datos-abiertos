@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salud</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper brown darken-4">
+            <a href="#" class="brand-logo">Informando</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="sass.html">Educacion</a>
+                </li>
+                <li>
+                    <a href="salud.html">Salud</a>
+                </li>
+                <li>
+                    <a href="tecnologia.html">Tecnologia</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container">
+        <h1>Hospitales</h1>
+        <p>En el siguiente mapa podras encontrar la ubicacion del hospital del estado mas cercano a ti.</p>
+        <section id="map"></section>
+    </section>
+
+    <script src="js/dom.js"></script>
+    <script src="js/ajax_petition.js"></script>
+    <script src="js/datos.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTmaZNUoGnZiuh0wVcQwLNTVu_k6BH-1g">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.main-title{
+    text-align: center;
+}
+select{
+    display: block;
+}
+#map{
+    height:25em;
+}
