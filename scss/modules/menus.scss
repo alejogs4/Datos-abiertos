@@ -1,0 +1,41 @@
+.header{
+    background: $main-color;
+    height: 82px;
+    a:hover{
+        text-decoration: none;
+    }
+    &-title{
+        color: #fff;  
+        font-size: 1.8em;
+        @include to($bp-menu){
+            font-size: 1.5em;
+        }  
+    }
+}
+.main-menu{
+    @include edMenu($bp-menu);
+    &__link{
+        color: white;
+    }
+    @include to($bp-menu){
+        li{
+            border-bottom: 1px solid rgba($toggle-color,.2);
+        }
+    }
+    li:hover{
+        border-bottom: 1px solid #fff;
+    }
+}
+.main-nav{
+    @include edNav(right,$bp-menu);
+    @include to($bp-menu){
+        margin-top: 82px;
+        align-self: stretch;
+        background: $menu-hover;
+    }
+}
+.nav-toggle{
+    @include to($bp-menu){
+        @include navToggle(15px,$toggle-color);
+    }
+}

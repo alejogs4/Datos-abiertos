@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colombiano informado || Educacion</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="ed-container">
+            <div class="ed-item s-70 l-30">
+                <a href=""><h2 class="header-title t2 titles">Colombiano informado</h2></a>
+            </div>
+            <div class="ed-item s-30 l-70 cross-center main-end">
+                <div class="nav-toggle" id="nav-toggle"></div>  
+                    <nav class="main-nav" id="nav">
+                        <ul class="main-menu" id="menu">
+                            <li class="texts"><a href="#" class="main-menu__link">Inicio</a></li>
+                            <li class="texts"><a href="educacion.html" class="main-menu__link">Educacion</a></li>
+                            <li class="texts"><a href="#" class="main-menu__link">Salud</a></li>
+                            <li class="texts"><a href="#" class="main-menu__link">Cultura</a></li>    
+                        </ul>
+                    </nav>
+            </div>
+        </div>
+    </header>
+    <main class="ed-container main-center">
+        <h1 class="titles t1">Educacion</h1>
+        <section class="main-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ratione laudantium 
+                aliquam natus vel consectetur maiores, quia corporis quos cupiditate debitis 
+                quod velit necessitatibus consequuntur autem molestias eos earum magnam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sit! Obcaecati unde 
+                non ad. Quas velit cum perferendis ut, quibusdam itaque tempora recusandae fugit, 
+                libero veritatis earum dolore quo rem.
+            </p>
+        </section>
+        <section class="maps-container main-center">
+            <h2 class="titles t2">Ubicacion y informacion de las bibliotecas publicas del pais</h2>
+            <article id="map"></article>
+        </section>
+    </main>
+    <script src="es6/modules/helper.js"></script>
+    <script src="es6/modules/maps.js"></script>
+    <script src="es6/datos.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPGXr39rwBegEv7kO44g_28CVy9-4fuYs">
+    </script>
+    <script src="js/modules/ed-grid/ed-grid.js"></script>
+    <script>
+        edgrid.menu('nav','menu')
+    </script>    
+</body>
+</html>

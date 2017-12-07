@@ -5,74 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Informando al ciudadano</title>
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper brown darken-4">
-            <a href="#" class="brand-logo">Informando</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Educacion</a></li>
-                    <li><a href="salud.html">Salud</a></li>
-                    <li><a href="tecnologia.html">Tecnologia</a></li>
-                </ul>
+  <header class="header">
+    <div class="ed-container">
+        <div class="ed-item s-70 l-30">
+            <a href=""><h2 class="header-title t2 titles">Colombiano informado</h2></a>
         </div>
-    </nav>
-    <section class="container">
-        <h1 class="main-title">Informando al ciudadano</h1>
-        <p>Informando al ciudadano es una iniciativa que busca ofrecer datos 
-            educación,ubicacion de hospitales y acceso a la tecnologia a los habitantes de medellín, para de esta manera volver mucho mas facil la consulta
-            y aprovechamiento de estos datos.
-        </p>
-        <h2 class="main-title">Servicios</h2>
-        <div class="row">
-            <div class="col s12 m6 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/servicios/educacion.jpg" alt="educacion medellin">
-                        <span class="card-title">Educacion en Medellin</span>
-                    </div>
-                    <div class="card-content">
-                        <p>Aqui podras consultar informacion sobre cupos esolares,cobertura educativa y becas para acceder a la educacion superior.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Acceder a esta informacion</a>
+        <div class="ed-item s-30 l-70 cross-center main-end">
+            <div class="nav-toggle" id="nav-toggle"></div>  
+            <nav class="main-nav" id="nav">
+                <ul class="main-menu" id="menu">
+                    <li class="texts"><a href="#" class="main-menu__link">Inicio</a></li>
+                    <li class="texts"><a href="educacion.html" class="main-menu__link">Educacion</a></li>
+                    <li class="texts"><a href="#" class="main-menu__link">Salud</a></li>
+                    <li class="texts"><a href="#" class="main-menu__link">Cultura</a></li>    
+                </ul>
+            </nav>
+        </div>
+    </div>
+  </header>
+  <main class="ed-container main-center">
+        <h1 class="t1 titles">¿Que es Colombiano informado?</h1>
+        <section class="main-text">
+            <p class="texts">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, 
+                exercitationem. Quis veniam dicta veritatis maxime animi nisi 
+                necessitatibus tempora, molestias ab? Iste cumque ex animi eos 
+                tempora eligendi excepturi officiis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas 
+                adipisci temporibus, cum nemo quibusdam non expedita architecto 
+                odio pariatur quidem obcaecati repellat ea tempora consequatur 
+                quisquam doloribus odit quo recusandae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Facilis accusamus, repudiandae perferendis molestiae consequatur
+                 suscipit sint et quia assumenda cupiditate omnis vitae quos 
+                 ipsam dolorum qui eligendi voluptatum aliquid deserunt.
+            </p>            
+        </section>
+        <section class="cards">
+            <div class="ed-container">
+                <div class="ed-item l-30 s-100">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="http://writingexercises.co.uk/images2/randomimage/graf.jpg" alt="">
+                        </div>
+                        <div class="card__content">
+                            <div class="card__title titles">Educacion</div>
+                            <div class="card__body">
+                                <p class="texts">
+                                    Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Nam delectus in et totam 
+                                    odit excepturi vel eaque asperiores incidunt!
+                                     Vitae molestias est, iure consectetur quae e
+                                     aque rem asperiores magni praesentium.
+                                </p>
+                            </div>
+                            <footer class="card__footer main-center">
+                                <div class="card__button cross-center">
+                                    <a href="" class="card__button--link">Informacion educacion</a>
+                                </div>
+                            </footer>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/servicios/criminalidad.jpg" alt="criminalidad en medellin">
-                        <span class="card-title">Criminalidad en Medellin</span>
-                    </div>
-                    <div class="card-content">
-                        <p>Consulta distintos datos sobre tasas de criminalidad en Medellin</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Acceder a esta informacion</a>
-                    </div>
+                <div class="ed-item l-30 s-100">
+                        <div class="card">
+                                <div class="card__img">
+                                    <img src="http://writingexercises.co.uk/images2/randomimage/boat.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__title titles">Salud</div>
+                                    <div class="card__body">
+                                        <p class="texts">
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Nam delectus in et totam 
+                                            odit excepturi vel eaque asperiores incidunt!
+                                            Vitae molestias est, iure consectetur quae e
+                                            aque rem asperiores magni praesentium.
+                                        </p>
+                                    </div>
+                                    <footer class="card__footer main-center cross-center">
+                                        <div class="card_button">
+                                            <a href="" class="card__button--link">Informacion salud</a>
+                                        </div>
+                                    </footer>
+                                </div>
+                        </div>
+                </div>
+                <div class="ed-item l-30 s-100">
+                        <div class="card">
+                                <div class="card__img">
+                                    <img src="http://writingexercises.co.uk/images2/randomimage/toadstools.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__title titles">Cultura</div>
+                                    <div class="card__body">
+                                        <p class="texts">
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Nam delectus in et totam 
+                                            odit excepturi vel eaque asperiores incidunt!
+                                            Vitae molestias est, iure consectetur quae e
+                                            aque rem asperiores magni praesentium.
+                                        </p>
+                                    </div>
+                                    <footer class="card__footer main-center cross-center">
+                                        <div class="card_button">
+                                            <a href="" class="card__button--link">Informacion cultura</a>
+                                        </div>
+                                    </footer>
+                                </div>
+                        </div>
                 </div>
             </div>
-
-            <div class="col s12 m6 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/servicios/tecnologia.jpg" alt="tecnologia en medellin">
-                        <span class="card-title">Tecnologia en Medellin</span>
-                    </div>
-                    <div class="card-content">
-                        <p>Consulta informacion sobre puntos de acceso gratis a internet entre otra informacion</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="tecnologia.html">Acceder a esta informacion</a>
-                    </div>
-                </div>
-            </div>
-        </div>        
-    </section>
-
+        </section>       
+  </main>
+  <script src="js/modules/ed-grid/ed-grid.js"></script>
+  <script>
+      edgrid.menu('nav','menu')
+  </script>
 </body>
 </html>

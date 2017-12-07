@@ -1,0 +1,12 @@
+$cssHelpers : true;
+$cssCore : false;
+$devMode: false;
+
+@import "ed-grid/ed-grid";
+
+@import "modules/variables";
+@import "modules/fonts.scss";
+@import "modules/titles";
+@import "modules/main";
+@import "modules/menus";
+@import "modules/educacion";

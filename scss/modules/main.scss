@@ -1,0 +1,32 @@
+.main-text{
+    margin:0.7em;
+}
+.card{
+    border: 0.5px solid $border;
+    border-radius:$radius;
+    margin-bottom: $margin-top;
+    &__img{
+        border-radius:$radius;
+    }
+    &__content{
+        margin: $margin-card;
+    }
+    &__title{
+        border-bottom: 1px solid $button-color;
+    } 
+    &__footer{
+        width: 12em;
+        height: 3em;
+        background: $button-color;
+        text-align: center;
+        border-radius: $radius;
+    }
+    &__button{
+        &--link{
+            color: #fff;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
