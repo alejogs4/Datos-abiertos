@@ -16,7 +16,9 @@ const getLibraryGeolocation = georeference =>{
         longitude = newGeolocation[1].split('').filter((value) => !isNaN(value) || value === '-' || value === '.').join('')
     return{lat : Number(latitude),lng : Number(longitude)}
 }
-const getLibraries = () =>{
+
+//Hace la peticion a la API para conseguir la informacion de las bibliotecas
+const getLibraries = () => {
     let locations = new Array(0)
     fetch('https://www.datos.gov.co/resource/in3j-awgi.json')
         .then(response => response.json())
@@ -34,6 +36,7 @@ const getLibraries = () =>{
             currentPosition(locations)
         })
 }
+
 
 const printLibrariesData = (obj,location) =>{
     c(obj)
